@@ -212,7 +212,8 @@ let
                             ( plg lexbuf)
 # 214 "plglex.ml"
 
-  | __ocaml_lex_state -> lexbuf.Lexing.refill_buff lexbuf; __ocaml_lex_plg_rec lexbuf __ocaml_lex_state
+  | __ocaml_lex_state -> lexbuf.Lexing.refill_buff lexbuf; 
+      __ocaml_lex_plg_rec lexbuf __ocaml_lex_state
 
 ;;
 
