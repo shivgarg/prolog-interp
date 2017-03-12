@@ -1,8 +1,8 @@
-prolog-interp
-=============
+## Introduction
 
-- Prolog Interpretor wriiten in ocaml. Most General Unifier and pattern matching algorithms have been used to implement prolog interpreter .
--plgparser.ml file is the main file where bactracking and unification has been coded to implement basic prolog inference engine.
+* Prolog Interpretor wriiten in ocaml. Most General Unifier and pattern matching algorithms have been used to implement prolog interpreter .
+* plgparser.ml file is the main file where bactracking and unification has been coded to implement basic prolog inference engine.
+
 ## Usage
 Usage :-  ./parser "prolog file name"
 
